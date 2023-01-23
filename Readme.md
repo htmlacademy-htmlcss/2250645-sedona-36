@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Евгений Лебедев](https://up.htmlacademy.ru/htmlcss/36/user/2250645).
-- Наставник: [Дмитрий Гуляев] (https://htmlacademy.ru/profile/dima).
+- Наставник: [Дмитрий Гуляев](https://htmlacademy.ru/profile/dima).
 
 ---
 
