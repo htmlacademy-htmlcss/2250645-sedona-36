@@ -7,7 +7,11 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img src="img/logo.svg" alt="logo" class="navigation-logo" />
+        <img
+          src="images/logo.svg"
+          alt="logo of Sedona city."
+          class="navigation-logo"
+        />
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="main.html">Главная</a>
@@ -32,7 +36,7 @@
           </li>
         </ul>
       </nav>
-      <button class="navigation-button">ХОЧУ СЮДА!</button>
+      <button class="navigation-button">Хочу сюда!</button>
     </header>
     <main class="main-index">
       <section class="main-page">
@@ -42,67 +46,63 @@
           class="mountains"
         />
         <img src="#" alt="welcome" class="welcome" />
-        <img
-          src="#"
-          alt="to the gorgeous"
-          class="gorgeous"
-        />
+        <img src="#" alt="to the gorgeous" class="gorgeous" />
         <img src="#" alt="sedona" class="sedona" />
         <h1 class="visually-hidden">
-          СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+          Седона - небольшой городок в Аризоне, заслуживающий большего!
         </h1>
-        <h3>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h3>
+        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
-      <section class="cards-page">
-        <div class="card">
-          <h2>НАСТОЯЩИЙ ГОРОДОК</h2>
+      <ul class="cards-page">
+        <li class="card">
+          <p>Настоящий городок</p>
 
           <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-        </div>
+        </li>
         <img src="#" alt="" />
-        <div class="card">
-          <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+        <li class="card">
+          <p>Небольшая площадь</p>
 
           <p>Все достопримечательности находятся близко</p>
-        </div>
-        <div class="card">
-          <h2>КРАСИВАЯ ДОРОГА</h2>
+        </li>
+        <li class="card">
+          <p>Красивая дорога</p>
 
           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
-        <div class="card">
-          <h2>МАЛО ТУРИСТОВ</h2>
+        </li>
+        <li class="card">
+          <p>Мало туристов</p>
 
           <p>Большинство едет в Гранд Каньон и толпится там</p>
-        </div>
+        </li>
         <img src="#" alt="" />
-        <div class="card">
-          <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+        <li class="card">
+          <p>Там есть мост дьявола</p>
 
           <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        </div>
-      </section>
+        </li>
+      </ul>
       <section class="section-icons">
-        <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-        <h3>Опытный персонал и качественное обслуживание!</h3>
+        <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p>Опытный персонал и качественное обслуживание!</p>
         <div class="card-icon">
           <img src="#" alt="house" />
-          <h2>Жильё</h2>
+          <p>Жильё</p>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </div>
         <div class="card-icon">
           <img src="#" alt="food" />
-          <h2>Еда</h2>
+          <p>Еда</p>
           <p>
             Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
           </p>
         </div>
         <div class="card-icon">
           <img src="#" alt="present" />
-          <h2>Сувениры</h2>
+          <p>Сувениры</p>
           <p>Не только китайского, но и настоящего местного производства!</p>
         </div>
-        <h2>Заинтересовались?</h2>
+        <p>Заинтересовались?</p>
         <p>
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
@@ -111,7 +111,7 @@
       </section>
       <section class="subscribe">
         <img src="#" alt="" class="subscribe-picture" />
-        <h2>Подпишитесь на рассылку</h2>
+        <p>Подпишитесь на рассылку</p>
         <p>
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
@@ -129,8 +129,8 @@
         </form>
       </section>
       <footer class="footer">
-        <section class="footer-social">
-          <ul class="footer-social-list">
+        <div class="footer-social">
+          <ul class="footer-social__list">
             <li class="footer-social-item">
               <a href="#" class="button">
                 <span class="visually-hidden">VK</span>
@@ -147,13 +147,19 @@
               </a>
             </li>
           </ul>
-        </section>
-        <section class="footer-phone">
-          <p>+7 (812) 812-12-12</p>
-          <a href="#">
-          <img src="img/logo_htmlacademy.png" alt="logo_htmlacademy" />
-          </a>
-        </section>
+        </div>
+        <div class="footer-phone">
+          <ul class="footer-phone__list">
+            <li>
+              <a href="tel:7812812121">+7 (812) 812-12-12</a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/HTML Academy.svg" alt="logo_htmlacademy." />
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>
