@@ -3,132 +3,158 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css" />
     <base href="https://htmlacademy-htmlcss.github.io/2250645-sedona-36/1/">
 </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
         <img
-          src="images/logo.svg" width="140" height="70"
+          src="images/logo.svg"
+          width="140"
+          height="70"
           alt="logo of Sedona city."
           class="navigation-logo"
         />
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="main.html">Главная</a>
+            <a class="navigation__link" href="main.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О Седоне</a>
+            <a class="navigation__link" href="about.html">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="hotels.html">Гостиницы</a>
+            <a class="navigation__link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation__link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation__link" href="#">
               <span class="visually-hidden">Лайки</span>
             </a>
           </li>
         </ul>
       </nav>
-      <button class="navigation-button">Хочу сюда!</button>
+      <button class="navigation__button">Хочу сюда!</button>
     </header>
     <main class="main-index">
       <section class="main-page">
         <img
-          src="/images/index-background.png" width="1200" height="485"
+          src="/images/index-background.png"
+          width="1200"
+          height="485"
           alt="welcome to the gorgeous Sedona, because the Grand Canyon sucks!"
           class="mountains"
         />
-        <ul class="list__inscription">
-          <li class="inscription"><img src="/images/welcome.png" alt="welcome" /></li>
-          <li class="inscription"><img src="/images/to the gorgeous.png" alt="to the gorgeous" /></li>
-          <li class="inscription"><img src="/images/sedona.png" alt="Sedona" /></li>
-        </ul>
-        <h1 class="visually-hidden">
+        <div class="inscription">
+          <img src="images/welcome.svg" width="188" height="45" alt="welcome" />
+          <img src="/images/to-the-gorgeous.svg" width="256" height="29" alt="to the gorgeous" />
+          <img src="/images/sedona.svg" width="457" height="213" alt="Sedona" />
+        </div>
+        <h1 class="heading
+        ">
           Седона - небольшой городок в Аризоне, заслуживающий большего!
         </h1>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="paragraph__black">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <ul class="cards-page">
         <li class="card">
-          <p>Настоящий городок</p>
+          <p class="headings__white">Настоящий городок</p>
 
-          <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+          <p class="text__white">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
         </li>
-        <li><img src="/images/hotels.png" width="800" height="385" alt="hotels of Sedona" /></li>
-        <li class="card">
-          <p>Небольшая площадь</p>
 
-          <p>Все достопримечательности находятся близко</p>
+          <img
+            src="/images/hotels.png"
+            width="800"
+            height="385"
+            alt="hotels of Sedona"
+          />
+
+        <li class="card">
+          <p class="headings">Небольшая площадь</p>
+
+          <p class="text__black">Все достопримечательности находятся близко</p>
         </li>
         <li class="card">
-          <p>Красивая дорога</p>
+          <p class="headings">Красивая дорога</p>
 
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <p class="text__black">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
         <li class="card">
-          <p>Мало туристов</p>
+          <p class="headings">Мало туристов</p>
 
-          <p>Большинство едет в Гранд Каньон и толпится там</p>
+          <p class="text__black">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
-        <li><img src="/images/canyon.png" width="800" height="385" alt="canyon of Sedona" /></li>
-        <li class="card">
-          <p>Там есть мост дьявола</p>
 
-          <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <img
+            src="/images/canyon.png"
+            width="800"
+            height="385"
+            alt="canyon of Sedona"
+          />
+
+        <li class="card">
+          <p class="headings__white">Там есть мост дьявола</p>
+
+          <p class="text__white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </li>
       </ul>
       <section class="section-icons">
-        <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
-        <p>Опытный персонал и качественное обслуживание!</p>
+        <p class="heading">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p class="paragraph__black">Опытный персонал и качественное обслуживание!</p>
         <div class="card-icon">
-          <img src="#" alt="house" />
-          <p>Жильё</p>
-          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          <img src="images/house.svg" width="75" height="72" alt="house" />
+          <p class="headings">Жильё</p>
+          <p class="text__black">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </div>
         <div class="card-icon">
-          <img src="#" alt="food" />
-          <p>Еда</p>
-          <p>
+          <img src="images/food.svg" width="74" height="70" alt="food" />
+          <p class="headings">Еда</p>
+          <p class="text__black">
             Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
           </p>
         </div>
         <div class="card-icon">
-          <img src="#" alt="present" />
-          <p>Сувениры</p>
-          <p>Не только китайского, но и настоящего местного производства!</p>
+          <img src="images/present.svg" width="64" height="76" alt="present" />
+          <p class="headings">Сувениры</p>
+          <p class="text__black">Не только китайского, но и настоящего местного производства!</p>
         </div>
-        <p>Заинтересовались?</p>
-        <p>
+        <p class="heading">Заинтересовались?</p>
+        <p class="paragraph__black">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <button class="button-card-icon">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <button class="button-card-icon">поиск гостиницы в Седоне</button>
       </section>
       <section class="subscribe">
-        <img src="/images/background_canyon.png" width="1200" height="415" alt="subscribe-picture" class="subscribe-picture" />
-        <p>Подпишитесь на рассылку</p>
-        <p>
+        <img
+          src="/images/background_canyon.png"
+          width="1200"
+          height="415"
+          alt="subscribe-picture"
+          class="subscribe-picture"
+        />
+        <p class="subscribe__heading">Подпишитесь на рассылку</p>
+        <p class="paragraph__white">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form class="subscribe-form" action="#" method="post">
           <p>
-            <label class="form-label" for="subscribe-email"></label>
+            <label class="form-label" for="subscribe-email">
             <input
               type="text"
               name="subscribe-email"
               id="subscribe-email"
-              placeholder="Ваш e-mail"
-            />
+              placeholder="Ваш e-mail"/>
+            </label>
           </p>
-          <button class="subscribe-button" type="submit">Подписаться</button>
+          <button class="subscribe__button" type="submit">Подписаться</button>
         </form>
       </section>
       <footer class="footer">
@@ -151,18 +177,18 @@
             </li>
           </ul>
         </div>
-        <div class="footer-phone">
-          <ul class="footer-phone__list">
+
+          <ul class="footer-connection">
             <li>
-              <a href="tel:7812812121">+7 (812) 812-12-12</a>
+              <a class="footer__phone" href="tel:7812812121">+7 (812) 812-12-12</a>
             </li>
             <li>
               <a href="#">
-                <img src="images/HTML Academy.svg" alt="logo_htmlacademy." />
+                <img src="images/html- academy.svg" alt="logo_htmlacademy." />
               </a>
             </li>
           </ul>
-        </div>
+
       </footer>
     </main>
   </body>
