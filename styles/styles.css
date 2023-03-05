@@ -12,16 +12,51 @@
   font-style: bold;
   font-display: swap;
 }
+html {
+  height: 100%;
+}
 
 body {
+  display: flex;
+  min-height: 100%;
   font-family: "PT Sans";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
+
+  outline: 5px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
 }
-.navigation__link {
+.site-container {
+  margin: 0 auto;
+  flex-grow: 1;
+  width: 1200px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 507px;
+  list-style: none;
+  margin: 0;
+}
+.navigation-user {
+  display: flex;
+  align-items: center;
+  max-width: 268px;
+  margin-left: auto;
+  list-style: none;
+}
+.navigation-link {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -29,12 +64,65 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.navigation__button {
+.navigation-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+}
+.navigation-item-user {
+  padding-right: 20px;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-picture {
+  display: flex;
+  position: relative;
+}
+.mountains {
+  z-index: -1;
+}
+.welcome {
+  position: absolute;
+  left: 506px;
+  right: 506px;
+  top: 50px;
+  bottom: 389px;
+}
+.gorgeous {
+  position: absolute;
+  left: 472px;
+  right: 472px;
+  top: 107px;
+  bottom: 350px;
+}
+.inscription-sedona {
+  position: absolute;
+  left: 372px;
+  right: 372px;
+  top: 190px;
+  bottom: 82px;
+}
+.divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 428px;
+  bottom: 0;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 261px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .paragraph__black {
   font-size: 22px;
