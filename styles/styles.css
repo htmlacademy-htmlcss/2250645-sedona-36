@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  display: flex;
+  /* display: flex; */
   min-height: 100%;
   font-family: "PT Sans";
   font-weight: 400;
@@ -25,7 +25,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
-
+  /* width: 1280px; */
   outline: 5px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
 }
@@ -70,6 +70,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: #756157;
 }
 .navigation-item-user {
   padding-right: 20px;
@@ -207,11 +208,6 @@ body {
   line-height: 26px;
   color: #333333;
 }
-.paragraph-white {
-  font-size: 22px;
-  line-height: 26px;
-  color: #ffffff;
-}
 .heading {
   font-weight: 700;
   font-size: 30px;
@@ -249,6 +245,16 @@ body {
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
+  width: 232px;
+  height: 52px;
+  background-color: #82B3D3;
+  border-radius: 0 4px 4px 0;
+  padding: 0;
+  border: 0;
+}
+.form-label {
+  width: 452px;
+  height: 52px;
 }
 .subscribe-heading {
   font-weight: 700;
@@ -263,4 +269,67 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+}
+.subscribe {
+  display: flex;
+  position: relative;
+}
+.subscribe-picture {
+  z-index: -1;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 259px;
+  bottom: 104px;
+  left: 258px;
+  right: 258px;
+}
+.subscribe-form-paragraph {
+  margin: 0;
+  padding: 0;
+}
+.subscribe-heading {
+  position: absolute;
+  top: 96px;
+  left: 398px;
+  right: 398px;
+  bottom: 283px;
+  text-align: center;
+}
+.subscribe-paragraph {
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  position: absolute;
+  top: 152px;
+  left: 362px;
+  right: 362px;
+  bottom: 210px;
+  text-align: center;
+}
+#subscribe-email {
+  width: 452px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+  /* line-height: 21px;
+  color: #000000; */
+}
+.footer {
+  width: 1200px;
+  height: 120px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-social-list {
+  display: flex;
+}
+.footer-social-item {
+  list-style: none;
 }
