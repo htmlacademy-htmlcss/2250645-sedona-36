@@ -17,7 +17,6 @@ html {
 }
 
 body {
-  /* display: flex; */
   min-height: 100%;
   font-family: "PT Sans";
   font-weight: 400;
@@ -25,7 +24,6 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
-  /* width: 1280px; */
   outline: 5px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
 }
@@ -141,13 +139,6 @@ body {
 .card-block-middle {
   background: rgba(131, 179, 211, 0.2);
 }
-/* .cards-page {
-  display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
-  width: 1200px;
-  height: 1185px;
-} */
 .card-plus-picture {
   display: flex;
   flex-direction: row;
@@ -316,8 +307,6 @@ body {
   border: 0;
   border-radius: 4px 0 0 4px;
   background-color: #F2F2F2;
-  /* line-height: 21px;
-  color: #000000; */
 }
 .footer {
   width: 1200px;
