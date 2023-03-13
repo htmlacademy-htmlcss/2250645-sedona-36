@@ -24,13 +24,14 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
-  outline: 5px solid rgba(255, 99, 78, 0.5);
   outline-offset: -5px;
 }
 .site-container {
   margin: 0 auto;
   flex-grow: 1;
   width: 1200px;
+  padding: 0 40px 0 40px;
+  outline: 5px solid rgba(255, 99, 78, 0.5);
 }
 .navigation {
   display: flex;
@@ -82,7 +83,10 @@ body {
   position: relative;
 }
 .mountains {
+  width: 1200px;
+  height: 485px;
   z-index: -1;
+  background-image: url(/images/index-background.png);
 }
 .welcome {
   position: absolute;
@@ -112,6 +116,11 @@ body {
   top: 428px;
   bottom: 0;
 }
+.inscription {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .text-wrapper {
   display: flex;
   flex-direction: column;
@@ -138,6 +147,16 @@ body {
 }
 .card-block-middle {
   background: rgba(131, 179, 211, 0.2);
+}
+.hotels {
+  width: 800px;
+  height: 385px;
+  background-image: url(/images/hotels.png);
+}
+.canyon {
+  width: 800px;
+  height: 385px;
+  background-image: url(/images/canyon.png);
 }
 .card-plus-picture {
   display: flex;
@@ -176,6 +195,16 @@ body {
   text-align: center;
   background-color: rgba(131, 179, 211, 0.12);
 }
+.card-icon-food {
+  width: 400px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
 .card-icon-wrapper {
   display: flex;
   flex-direction: row;
@@ -194,24 +223,24 @@ body {
   background-color: #756157;
   border-radius: 4px;
 }
-.paragraph-black {
+.paragraph-word {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 }
-.heading {
+.main-banner {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
 }
-.headings {
+.banner {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
-.card-headings {
+.card-banner {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -221,7 +250,7 @@ body {
 .card-text {
   color: #ffffff;
 }
-.text-black {
+.text-word {
   color: #333333;
 }
 .button-card-icon {
@@ -244,10 +273,11 @@ body {
   border: 0;
 }
 .form-label {
+
   width: 452px;
   height: 52px;
 }
-.subscribe-heading {
+.subscribe-banner {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -266,7 +296,11 @@ body {
   position: relative;
 }
 .subscribe-picture {
+  width: 1200px;
+  height: 415px;
   z-index: -1;
+  background-image: url(/images/background_canyon.png);
+  background-size: 100% auto;
 }
 .subscribe-form {
   display: flex;
@@ -281,7 +315,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.subscribe-heading {
+.subscribe-banner {
   position: absolute;
   top: 96px;
   left: 398px;
@@ -300,13 +334,14 @@ body {
   bottom: 210px;
   text-align: center;
 }
-#subscribe-email {
+.field {
   width: 452px;
   height: 52px;
   padding: 0;
   border: 0;
   border-radius: 4px 0 0 4px;
   background-color: #F2F2F2;
+  padding-left: 20px;
 }
 .footer {
   width: 1200px;
@@ -317,8 +352,29 @@ body {
   align-items: center;
 }
 .footer-social-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  margin: 0;
+  padding: 0;
 }
 .footer-social-item {
   list-style: none;
+  width: 22px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.button {
+  cursor: pointer;
+}
+input:placeholder-shown {
+  font-size: 18px;
+  line-height: 24px;
 }
