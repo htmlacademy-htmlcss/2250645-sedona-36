@@ -31,7 +31,6 @@ body {
   flex-grow: 1;
   width: 1200px;
   padding: 0 40px 0 40px;
-  outline: 5px solid rgba(255, 99, 78, 0.5);
 }
 .navigation {
   display: flex;
@@ -70,6 +69,9 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756157;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
 }
 .navigation-item-user {
   padding-right: 20px;
