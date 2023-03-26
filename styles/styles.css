@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format(woff2);
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+  outline-offset: -5px;
+}
+.site-container {
+  margin: 0 auto;
+  flex-grow: 1;
+  width: 1200px;
+  padding: 0 40px 0 40px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 507px;
+  list-style: none;
+  margin: 0;
+}
+.navigation-user {
+  display: flex;
+  align-items: center;
+  max-width: 268px;
+  margin-left: auto;
+  list-style: none;
+}
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+}
+.navigation-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+}
+.navigation-item-user {
+  padding-right: 20px;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-picture {
+  display: flex;
+  position: relative;
+}
+.mountains {
+  width: 1200px;
+  height: 485px;
+  z-index: -1;
+  background-image: url(/images/index-background.png);
+}
+.welcome {
+  position: absolute;
+  left: 506px;
+  right: 506px;
+  top: 50px;
+  bottom: 389px;
+}
+.gorgeous {
+  position: absolute;
+  left: 472px;
+  right: 472px;
+  top: 107px;
+  bottom: 350px;
+}
+.inscription-sedona {
+  position: absolute;
+  left: 372px;
+  right: 372px;
+  top: 190px;
+  bottom: 82px;
+}
+.divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 428px;
+  bottom: 0;
+}
+.inscription {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 261px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card {
+  width: 400px;
+  height: 385px;
+  background-color: #82B3D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-block {
+  background: rgba(131, 179, 211, 0.12);
+}
+.card-block-middle {
+  background: rgba(131, 179, 211, 0.2);
+}
+.hotels {
+  width: 800px;
+  height: 385px;
+  background-image: url(/images/hotels.png);
+}
+.canyon {
+  width: 800px;
+  height: 385px;
+  background-image: url(/images/canyon.png);
+}
+.card-plus-picture {
+  display: flex;
+  flex-direction: row;
+}
+.card-card-card {
+  display: flex;
+  flex-direction: row;
+}
+.picture-card {
+  display: flex;
+  flex-direction: row;
+}
+.welcome-wrapper {
+  width: 1200px;
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.card-icon {
+  width: 400px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.card-icon-food {
+  width: 400px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+.card-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.search-hotel-wrapper {
+  width: 1200px;
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+.button-card-icon {
+  background-color: #756157;
+  border-radius: 4px;
+}
+.paragraph-word {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.main-banner {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.banner {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.card-banner {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card-text {
+  color: #ffffff;
+}
+.text-word {
+  color: #333333;
+}
+.button-card-icon {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 232px;
+  height: 52px;
+  background-color: #82B3D3;
+  border-radius: 0 4px 4px 0;
+  padding: 0;
+  border: 0;
+}
+.form-label {
+
+  width: 452px;
+  height: 52px;
+}
+.subscribe-banner {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+.subscribe {
+  display: flex;
+  position: relative;
+}
+.subscribe-picture {
+  width: 1200px;
+  height: 415px;
+  z-index: -1;
+  background-image: url(/images/background_canyon.png);
+  background-size: 100% auto;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 259px;
+  bottom: 104px;
+  left: 258px;
+  right: 258px;
+}
+.subscribe-form-paragraph {
+  margin: 0;
+  padding: 0;
+}
+.subscribe-banner {
+  position: absolute;
+  top: 96px;
+  left: 398px;
+  right: 398px;
+  bottom: 283px;
+  text-align: center;
+}
+.subscribe-paragraph {
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  position: absolute;
+  top: 152px;
+  left: 362px;
+  right: 362px;
+  bottom: 210px;
+  text-align: center;
+}
+.field {
+  width: 452px;
+  height: 52px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+  padding-left: 20px;
+}
+.footer {
+  width: 1200px;
+  height: 120px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-social-list {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  margin: 0;
+  padding: 0;
+}
+.footer-social-item {
+  list-style: none;
+  width: 22px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.button {
+  cursor: pointer;
+}
+input:placeholder-shown {
+  font-size: 18px;
+  line-height: 24px;
+}
